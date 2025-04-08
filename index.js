@@ -18,9 +18,7 @@ console.log(greet());
 
 //#3 sumBigIntegers
 function sumBigIntegers(numStr1, numStr2){
-  numStr1 = BigInt(9007199254740991);
-  numStr2 = BigInt(9007199254740991);
-  return numStr1 + numStr2;
+  return BigInt(numStr1) + BigInt(numStr2);
 }
-console.log(sumBigIntegers);
+console.log(sumBigIntegers('9007199254740991', '9007199254740991'));
 
