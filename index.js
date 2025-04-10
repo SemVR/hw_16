@@ -10,11 +10,9 @@ console.log(getRandomInt(1, 100));
 
 //#2 greatRandomInt
 function greet(msg, name){
-  msg = 'Hi';
-  name = 'John';
   return msg + ', ' + name;
 }
-console.log(greet());
+console.log(greet('Hi', 'John'));
 
 //#3 sumBigIntegers
 function sumBigIntegers(numStr1, numStr2){
